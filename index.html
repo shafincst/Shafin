@@ -16,7 +16,7 @@
      
 		Resume - Shafin Ahmed
 	</title>
-	<meta name="description" content="meta_description','Hi! My name is Shafin Ahmed. I am a Web Developer, and I am very passionate and dedicated to my work. With 4 years experience as a professional Web developer" />
+	<meta name="description" content="meta_description','Hi! My name is Shafin Ahmed. I am a Web Developer, and I am very passionate and dedicated to my work. With 1 years experience as a professional Web developer" />
     <meta property="og:url" content="index.html" />
 
      <meta property="og:title" content='Resume - Shafin Ahmed'>
@@ -52,7 +52,9 @@
  <body class="side-header" data-spy="scroll" data-target=".navbar" data-offset="1">
 
 <!-- Preloader -->
+	<div id="preloader">
 
+	</div>
 <!-- Preloader End --> 
 
 <div class="theme_all_wrap" data-magic-cursor=" " data-color="crimson">
@@ -847,8 +849,15 @@
     <script src="js/toastr.min.js"></script>
     <script src="pages/js/general/frontend/feedback.js"></script>
 
+	<script>
+		var loader = document.getElementById("preloader");
+
+		window.addEventListener("load", function()		{
+			loader.style.display = "none";
+		})
+	</script>
+
 	</body>
 
 
-<!-- Mirrored from kanakdebnath.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 06 Nov 2023 14:14:03 GMT -->
 </html>
